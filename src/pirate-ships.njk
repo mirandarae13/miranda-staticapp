@@ -7,11 +7,11 @@
 {% block content %}
 <article class="container">
   <h1>Ships of the Golden Age of pirates</h1>
-  <p>Intro text here.</p>
+  <p>Captains of the ships od the Golden Age pirates...</p>
   <div class="row">
     {% for ship in pirates.ships %}
     <div class="col-sm-6 col-lg-4 mb-4">
-      <div class="card card text-bg-success">
+      <div class="card card text-bg-light mb-4">
         <div class="card-body">
           <h5 class="card-title">{{ ship.ship_name }}</h5>
           <h5>{{ ship.captain }}</h5>
