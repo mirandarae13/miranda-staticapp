@@ -15,9 +15,9 @@
   <div class="row">
     {% for entry in blog.blogs %}
     <div class="col-md-8 offset-md-2">
-      <h3><a href="blog/(( entry slug )).html">{{ entry.headline }}</a></h3>
+      <h3><a href="blog/{{ entry.slug }}.html">{{ entry.headline }}</a></h3>
       <p>{{ entry.date }}</p>
+    </div>
       {% endfor %}
-  </div>
 </div>
 {% endblock %}
